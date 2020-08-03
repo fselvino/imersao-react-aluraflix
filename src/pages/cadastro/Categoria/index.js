@@ -22,7 +22,7 @@ function CadastroCategoria() {
   useEffect(() => {
     const URL_TOP = window.location.hostname.includes('localhost')
       ? 'http://localhost:3333/categorias'
-      : 'https://devsoutinhoflix.herokuapp.com/categorias';
+      : 'https://servicebiflix.herokuapp.com/categorias';
     // E a ju ama variáveis
     fetch(URL_TOP)
       .then(async (respostaDoServidor) => {
